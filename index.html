@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Manga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <marquee behavior="scroll" direction="left">
+        <span style="font-size: 30px; color: white;"><strong>JESUS EST LE ROI</strong></span>
+    </marquee>
+    <div class="gallery-container">
+        <div class="slider">
+            <img src="naruto.jpg" alt="Naruto">
+            <img src="onepiece.jpg" alt="One Piece">
+            <img src="bleach.jpg" alt="Bleach">
+        </div>
+        <button onclick="likeImage()">Like</button>
+        <p id="like-count">Likes : 0</p>
+        <textarea placeholder="Ajoute un commentaire..."></textarea>
+        <button onclick="downloadImage()">Télécharger l'image</button>
+    </div>
+    <audio id="jingle" src="jingle.mp3" autoplay></audio>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000;
+    color: white;
+    background-image: url('glass-effect.png');
+    background-size: cover;
+}
+.gallery-container {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.slider img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    height: 60px;
+}
